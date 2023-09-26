@@ -1,0 +1,31 @@
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px; /* Adjust the gap as needed */
+}
+
+.image-container {
+    flex: 0 0 auto; /* Prevent image from growing or shrinking */
+}
+
+#golferPhoto {
+    display: block;
+    width: 800px; /* Adjust the width as needed */
+}
+
+.golferInfo-container {
+    flex: 1; /* Allow info container to take remaining space */
+}
+
+
+#name {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
